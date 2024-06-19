@@ -2,13 +2,17 @@ import React from "react";
 
 const Experience: React.FC<{}> = () => {
   return (
-    <section id="experience">
+    <section id="experience" className=" z-20" style={{ top: '0', left: '0' }}>
+
       <h1 className="text-white font-semibold text-center text-6xl   pt-[35px]">
         EXPERIENCE
       </h1>
       <p className=" tracking-[0.5em] text-center text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl ">
         EXPLORE NOW
       </p>
+
+
+
       <div className=" container mx-auto 2xl ">
         <div className="flex  flex-row justify-between pt-5">
           <p className="text-gray-300 ">
@@ -33,23 +37,26 @@ const Experience: React.FC<{}> = () => {
           component-based architecture and state management, and I am
           well-versed in the latest web development trends and technologies.
         </p>
-        <div className="flex-col flex sm:flex-row ">
-          <div className="bg-transparent  mt-5 mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
+        <div className="flex-col flex sm:flex-row [&>*]:my-1 [&>*]:hover:bg-slate-500/10">
+          <div className="bg-transparent   mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
             React Native
           </div>
-          <div className="bg-transparent  mt-5  mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
+          <div className="bg-transparent    mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
             React
           </div>
-          <div className="bg-transparent  mt-5  mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
+          <div className="bg-transparent    mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
             JavaScript
           </div>
-          <div className="bg-transparent  mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
+          <div className="bg-transparent   cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
             Typescript
           </div>
         </div>
       </div>
+
+
     </section>
   );
 };
 
 export default Experience;
+

@@ -5,4 +5,9 @@
 
 * {
   font-family: "Poppins", sans-serif;
+  max-width: 100%;
+}
+
+.mockup-browser-toolbar {
+  @apply mt-0;
 }

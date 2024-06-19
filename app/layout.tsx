@@ -3,18 +3,18 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import StarsCanvas from "@/components/main/StarsBackground";
 import Navbar from "@/components/Navbar";
-
+import { Providers } from './providers';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    "https://developer-portfolio-ibrahim-memons-projects.vercel.app"
+    "https://portovc.vercel.app"
   ),
-  title: "Ibrahim Portfolio",
-  description: "Developer Portfolio By Ibrahim Memon",
-  keywords: ["Developer", "Portfolio", "Developer Portflio", "Ibrahim Memon"],
+  title: "CV and Portfolio",
+  description: "Thanks and (c) Ibrahim Memon",
+  keywords: ["Developer", "Portfolio", "Developer Portfolio", "Elzio"],
   openGraph: {
-    title: "Ibrahim Memon",
+    title: "Elzio",
     description: "Software Engineer",
     images: "/OpenGraph.jpg",
   },
@@ -31,8 +31,11 @@ export default function RootLayout({
         className={`${inter.className} bg-[#111] overflow-y-scroll overflow-x-hidden`}
       >
         <StarsCanvas />
+
+
         <Navbar />
-        {children}
+        <Providers>{children}</Providers>
+
       </body>
     </html>
   );

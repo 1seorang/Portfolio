@@ -1,0 +1,93 @@
+name: Elzio
+tagline: ""
+passion:
+  Dedicate to continuous improvement and learning new technologies. I always
+  strive to create web applications that are responsive, intuitive, and efficient.
+  Passionate Data Engineer with a focus on Data Design, dedicated to crafting elegant
+  and user-friendly Web Apps based on React.
+contact: ""
+about: ""
+skill:
+  - title: Next.JS
+    description: Java Script
+    icon: "/icons/next.svg"
+    tag: Front End
+  - title: ReactJS
+    description: Java Script
+    icon: "/icons/react.svg"
+    tag: Front End
+  - title: Tailwind
+    description: CSS Framework
+    icon: "/icons/3d-programmer.png"
+    tag: CSS
+  - title: Sheet
+    description: Google Sheet
+    icon: "/icons/sheet.svg"
+    tag: Database
+  - title: Notion
+    description: BaaS platform
+    icon: "/icons/notion.svg"
+    tag: Database
+  - title: Firebase
+    description: BaaS platform
+    icon: "/icons/firebase.svg"
+    tag: Database
+  - title: Notion
+    description: BaaS platform
+    icon: "/icons/notion.svg"
+    tag: Database
+  - title: SQL
+    description: MySQL Postgre
+    icon: "/icons/sql.svg"
+    tag: Database
+  - title: NoSQL
+    description: TSDB MongoDB
+    icon: "/icons/mongo.svg"
+    tag: Database
+experience: 
+  - title: "Data Engineer"
+    date: "Current"
+    tag: "Data Engineer, CI/CD, Data Pipeline, Data Warehouse, Data Lake, Data Mesh"
+    description: "Currently, I am working on WebHR Mobile Application, WebHR is a Cloud based Social HR Software for SMEs by Verge Systems Inc. WebHR is currently used in over 160 countries world wide by thousands of organizations to manage HR, As a React.js developer with 1.5 year of experience, I have a strong foundation in creating dynamic and responsive mobile and web applications.
+    My experience with React Native has allowed me to develop cross-platform mobile applications that run seamlessly on both iOS and Android platforms. Additionally, my proficiency in React.js has equipped me with the skills to create fast, scalable, and dynamic web pages with excellent user experiences. I have a deep understanding of component-based architecture and state management, and I am well-versed in the latest web development trends and technologies."
+project:
+  - name: Inventory App
+    image: "/LooperGroup2.png"
+    tag: Web App
+    description: Application for Inventory Management using Next.js, Tailwind, and TS for show and manage data of Inventory, Machine, and Supplier also sparepart included
+  - name: Sparepart App
+    image: "/b2b.png"
+    tag: Web App
+    description: Application for Spare Part Request Management using Next.js, Tailwind, and TS for show and manage data of Request, Supplier, and Customer also sparepart included
+  - name: IIoT
+    tag: App
+    image: "/app.png"
+    description: Application for automation and data analysis using PLC, MQTT, and TS for show and manage data of auxilliaries of machinery
+  - name: B2B
+    image: "/b2b.png"
+    tag: Web App
+    description: Application for B2B Management using Next.js, Tailwind, and TS for show and manage data of Request, Supplier, and Customer also sparepart included
+  - name: Stock
+    image: "/stock.png"
+    tag: Web App
+    description: Application for B2C Management using Next.js, Tailwind, and TS for show and manage data of Request, Supplier, and Customer also sparepart included
+  - name: Weather
+    tag: Web App
+    image: "/clipboard.png"
+    description: Application for Weather Management using Next.js, Tailwind, and TS for show and manage data of Weather
+technology:
+  - name: "React"
+    description: "React is a JavaScript library for building user interfaces, particularly for single-page applications. It's used for handling the view layer for web and mobile apps, as well as for building reusable UI components."
+  - name: Next.JS
+    description: "Next.js is a React framework that provides a server-side rendering (SSR) and static site generation (SSG) capabilities. It's used for building web applications and APIs, and it also includes a plugin system for adding new features and components."
+  - name: "Tailwind"
+    description: "Tailwind CSS is a utility-first CSS framework for rapidly building custom designs. It offers a default theme that can be customized to meet your specific needs, and it also includes a plugin system for adding new features and components."
+  - name: firebase
+    description: "Firebase is a mobile and web application development platform developed by Google. It provides backend services, database, authentication, storage, and hosting for web and mobile apps."
+  - name: docker
+    description: "Docker is app"
+  - name: Cloud
+    description: "Cloud is ..."
+  - name: VM Ware
+    description: "VM Ware is ..."
+    

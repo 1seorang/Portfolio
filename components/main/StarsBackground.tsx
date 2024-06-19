@@ -22,7 +22,7 @@ const StarBackground = (props: any) => {
       <Points ref={ref} positions={sphere} stride={3} frustumCulled {...props}>
         <PointMaterial
           transparent
-          color="#fff"
+          color="#16f"
           size={0.002}
           sizeAttenuation={true}
           dethWrite={false}
@@ -33,7 +33,7 @@ const StarBackground = (props: any) => {
 };
 
 const StarsCanvas: React.FC<{}> = () => (
-  <div className="w-full h-auto fixed inset-0 z-[1] ">
+  <div className="w-screen h-auto fixed inset-0 z-[1] ">
     <Canvas camera={{ position: [0, 0, 1] }}>
       <Suspense fallback={null}>
         <StarBackground />

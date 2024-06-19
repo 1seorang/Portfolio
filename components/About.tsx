@@ -9,20 +9,15 @@ const About: React.FC<{}> = () => {
     >
       <div className="flex flex-col  justify-around flex-wrap items-center   max-w-[900px]">
         <h1 className="text-white font-semibold text-6xl">ABOUT ME</h1>
-        <p className=" tracking-[0.5em] text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl">
+        <p className=" tracking-[0.5em] text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-2xl">
           EXPLORE NOW
         </p>
-        <p className="text-gray-300 text-center ">
-          As a passionate software engineer, I thrive on the intricate dance
-          between logic and creativity. Currently immersed in the dynamic world
-          of WebHR, my expertise centers around React Native, where I seamlessly
-          blend technology with innovation.
+        <p className="text-gray-300 text-center text-lg">
+          Proffesional in Data Engineer and Developer
           <br />
+          I have expertise in various programming languages like JavaScript, Python, and PHP, as well as frameworks like React.js and Laravel. I also have a strong knowledge of SQL and NoSQL databases, and experience with DevOps and cloud computing
           <br />
-          With a fervor for crafting elegant solutions, I navigate the
-          ever-evolving landscape of software development. My journey involves
-          translating concepts into code, creating seamless user experiences,
-          and constantly pushing the boundaries of what&#39;s possible
+          Translate a equipped from many Technology stack and Tools
         </p>
       </div>
     </section>

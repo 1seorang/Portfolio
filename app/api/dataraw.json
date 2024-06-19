@@ -1,0 +1,66 @@
+{
+    "name": "Elzio",
+    "tagline":"",
+    "passion":"Dedicate to continuous improvement and learning new technologies. I always strive to create web applications that are responsive, intuitive, and efficient. Passionate Data Engineer with a focus on Data Design, dedicated to crafting elegant and user-friendly Web Apps based on React.",
+    "contact": "",
+    "about": "",
+    "skill": [
+      {
+        "title": "Next.JS",
+        "desc": "Java Script",
+        "icon": "./icons/nextjs.svg",
+        "tag": "Front End"
+      },
+      {
+        "title": "ReactJS",
+        "desc": "Java Script",
+        "icon": "./icons/react.svg",
+        "tag": "Front End"
+      },
+      {
+        "title": "Tailwind",
+        "desc": "CSS Framework",
+        "icon": "./icons/tailwind.svg",
+        "tag": "CSS"
+      },
+      {
+        "title": "Sheet",
+        "desc": "Google Sheet",
+        "icon": "./icons/sheet.svg",
+        "tag": "Database"
+      },
+      {
+        "title": "Notion",
+        "desc": "BaaS platform",
+        "icon": "./icons/notion.svg",
+        "tag": "Database"
+      },
+      {
+        "title": "Firebase",
+        "desc": "BaaS platform",
+        "icon": "./icons/firebase.svg",
+        "tag": "Database"
+      },
+      {
+        "title": "Notion",
+        "desc": "BaaS platform",
+        "icon": "./icons/notion.svg",
+        "tag": "Database"
+      },
+      {
+        "title": "SQL",
+        "desc": "MySQL Postgre",
+        "icon": "./icons/sql.svg",
+        "tag": "Database"
+      },
+      {
+        "title": "NoSQL",
+        "desc": "TSDB MongoDB",
+        "icon": "./icons/mongo.svg",
+        "tag": "Database"
+      }
+    ],
+    "experience": "",
+    "project": [{"name": "", "description": ""}],
+    "technology": [{"name": "", "description": ""}]
+  }
